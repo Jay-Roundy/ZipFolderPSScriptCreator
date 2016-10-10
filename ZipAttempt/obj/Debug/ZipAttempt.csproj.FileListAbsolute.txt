@@ -7,3 +7,6 @@ c:\users\jason\documents\visual studio 2015\Projects\ZipAttempt\ZipAttempt\obj\D
 c:\users\jason\documents\visual studio 2015\Projects\ZipAttempt\ZipAttempt\obj\Debug\ZipAttempt.csproj.GenerateResource.Cache
 c:\users\jason\documents\visual studio 2015\Projects\ZipAttempt\ZipAttempt\obj\Debug\ZipAttempt.exe
 c:\users\jason\documents\visual studio 2015\Projects\ZipAttempt\ZipAttempt\obj\Debug\ZipAttempt.pdb
+C:\Users\Jason\Source\Repos\ZipFolderPSScriptCreator\ZipAttempt\bin\Debug\ZipAttempt.exe.config
+C:\Users\Jason\Source\Repos\ZipFolderPSScriptCreator\ZipAttempt\obj\Debug\ZipAttempt.exe
+C:\Users\Jason\Source\Repos\ZipFolderPSScriptCreator\ZipAttempt\obj\Debug\ZipAttempt.pdb

@@ -43,6 +43,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.saveFileDialog3 = new System.Windows.Forms.SaveFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -67,9 +69,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(33, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 15);
+            this.label1.Size = new System.Drawing.Size(298, 15);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Select a folder to backup";
+            this.label1.Text = "Select Folder/Directory to be Backed Up";
             // 
             // button3
             // 
@@ -91,15 +93,15 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 106);
+            this.label3.Location = new System.Drawing.Point(33, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(250, 15);
+            this.label3.Size = new System.Drawing.Size(298, 15);
             this.label3.TabIndex = 8;
             this.label3.Text = "ZipLocation for OneTime Zip";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(350, 296);
+            this.button4.Location = new System.Drawing.Point(350, 310);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(85, 25);
             this.button4.TabIndex = 12;
@@ -109,7 +111,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(36, 299);
+            this.textBox4.Location = new System.Drawing.Point(36, 313);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(295, 20);
             this.textBox4.TabIndex = 13;
@@ -136,15 +138,37 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(33, 218);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(300, 15);
+            this.label2.Size = new System.Drawing.Size(319, 15);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Choose Backup Folder-filename for Script";
+            this.label2.Text = "Choose Backup Folder/Filename for ZipFile";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(33, 285);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(327, 16);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Choose Folder/Filename for PowerShell Script";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.richTextBox1.Location = new System.Drawing.Point(36, 354);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(295, 45);
+            this.richTextBox1.TabIndex = 18;
+            this.richTextBox1.Text = "If any folder locations change you will need to make a new script to backup your " +
+    "folder/directory.";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(454, 411);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
@@ -180,6 +204,8 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.SaveFileDialog saveFileDialog3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
