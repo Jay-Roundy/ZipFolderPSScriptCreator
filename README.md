@@ -8,3 +8,5 @@ The powershell script will check if the file exists and delete it if it does and
 Not the most usefull form but better than manually selecting your backup every few days or week. Just run the script and save a few clicks
 
 Go to \bin\release\zipattempt application to copy to a location and run the windows form
+
+Added better explanation text and put a copy of the exe file in main repository
